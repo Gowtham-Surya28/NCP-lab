@@ -1,0 +1,39 @@
+<table>
+<form method="post" action="apply-now.php">
+ <input name="subject" type="hidden" value="Class" />
+ <fieldset><legend>Personal Data</legend>
+ <label for="fname">First Name</label>
+ <br />
+ <input type="text" name="fname" id="fname" />
+ <br />
+ <label for="lname">Last Name</label>
+  <br />
+ <input type="text" name="lname" id="lname" />
+ <br />
+ <label for="email">Email</label>
+  <br />
+ <input type="text" name="email" id="email" />
+ <br />
+ <label for="resume">Resume</label>
+  <br />
+ <input type="text" name="resume" id="resume" />
+ </fieldset>
+ <fieldset><legend>Job</legend>
+ <label for="position_applied_for">position applied for</label>
+ <select name="position_applied_for" id="position_applied_for">
+ <option value="AD">Administration</option>
+ <option value="MN">Management</option>
+ <option value="AC" selected="selected">Accounts</option>
+ </select>
+ <label for="hwage">Hourly Wage</label>
+ <input type="text" name="hwage" id="hwage" />
+ <br />
+ <label for="Date_you_can_start">Date you can start</label>
+ <input type="date" id="Date_you_can_start" name="Date_you_can_start">
+ <label for="whours">Weekly Hours</label>
+ <input type="text" name="whours" id="whours" />
+ <p>
+ <input type="submit" name="submit" value="Submit" />
+ </p>
+</form>
+</table>
