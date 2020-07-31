@@ -1,0 +1,34 @@
+<table>
+<form method="post" action="apply-now.php">
+ <input name="subject" type="hidden" value="Class" />
+ <fieldset><legend>Personal Data</legend>
+ <label for="fname">First Name</label>
+ <br />
+ <input type="text" name="fname" id="fname" />
+ <br />
+ <label for="lname">Last Name</label>
+  <br />
+ <input type="text" name="lname" id="lname" />
+ <br />
+ <label for="email">Email</label>
+  <br />
+ <input type="text" name="email" id="email" />
+ <br />
+ </fieldset>
+ <fieldset><legend>Job</legend>
+ <label for="degree_applied_for">degree applied for</label>
+ <select name="degree_applied_for" id="degree_applied_for">
+ <option value="MB">MBA</option>
+ <option value="Mt">Mtech</option>
+ <option value="BT" selected="selected">Btech</option>
+ </select>
+ <label for="cor">Course</label>
+ <input type="text" name="cor" id="cor" />
+ <br />
+ <label for="Date_you_can_start">Date you can start</label>
+ <input type="date" id="Date_you_can_start" name="Date_you_can_start">
+ <p>
+ <input type="submit" name="submit" value="Submit" />
+ </p>
+</form>
+</table>
